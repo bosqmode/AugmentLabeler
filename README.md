@@ -55,9 +55,11 @@ The name of the folder and the dataset generated
 Minimum and maximum ranges of the hue randomization
 Not on by default since most of the DNN-frameworks are already
 equipped with such functionality.
+
 ![Hue1](https://i.imgur.com/bqgTYl1.png)
 
 ``` -huemin=0.6 -huemax=1.5 ```
+
 ![Hue2](https://i.imgur.com/dDh3pIr.png)
 
 ### -tsize -vsize
@@ -77,9 +79,11 @@ Size multiplier range for foregrounds
 Should the foregrounds be cropped by their alpha channel's bounding box? Note: this is done in
 preprocessing and therefor replaces the old images
 with cropped ones. To be safe, make a copies of the original ones.
+
 ![Cropped](https://i.imgur.com/bvtDFo3.jpg)
 
 ``` -alphacrop=False ```
+
 ![UnCropped](https://i.imgur.com/oH18bFq.jpg)
 
 ### -includenegative
